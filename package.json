@@ -21,6 +21,9 @@
     "jade": "^1.11.0",
     "markovchain-generate": "^1.0.11"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
   "description": ""
 }
