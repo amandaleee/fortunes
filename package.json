@@ -1,0 +1,24 @@
+{
+  "name": "fortunes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandaleee/fortunes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandaleee/fortunes/issues"
+  },
+  "homepage": "https://github.com/amandaleee/fortunes#readme",
+  "dependencies": {
+    "markovchain-generate": "^1.0.11"
+  },
+  "devDependencies": {},
+  "description": ""
+}
