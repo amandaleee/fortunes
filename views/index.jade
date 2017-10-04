@@ -1,4 +1,8 @@
-TESTING HERE
-
-
-<script src="//localhost:35729/livereload.js"></script>
+p TESTING HERE
+script
+	import Markov from 'libmarkov' 
+	let text = document.getElementById('myinput').value;
+	let generator = new Markov(text);
+	document.getElementById('myresults').textContent = generator.generate(10)
+script 
+	src="//localhost:35729/livereload.js"
